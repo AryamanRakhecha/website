@@ -1,0 +1,105 @@
+body {
+  background-color: #F5FAFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.intro-secton {
+  margin-top: 3rem;
+}
+
+
+.intro-secton .my-intro {
+  background-color: #FFF;
+  border-radius: 20px 20px 20px 0;
+  padding: 1rem;
+}
+
+.intro-secton .container p {
+  font-weight: 600;
+  font-size: 1.8125rem;
+  margin-bottom: 0;
+}
+
+.intro-secton .container h1 {
+  font-weight: 700;
+  font-size: 3.125rem;
+}
+
+@media (max-width: 991px) {
+  .intro-secton .container h1 {
+    font-size: 2.125rem;
+  }
+}
+
+.my-activities {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+/* Card CSS */
+.card {
+  border-radius: 20px;
+  border: 0;
+  background-color: #318CE7;
+  color: #FFF;
+}
+
+.card .card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.card .card-text {
+  font-size: 0.8rem;
+}
+
+.card-icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  background-color: #318CE7;
+  border: solid 2px #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(50% - 40px);
+  margin-top: -40px;
+}
+
+.card-icon img {
+  max-width: 36px;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.card-footer {
+  border-top: 0;
+  background: none;
+  text-align: end;
+  padding-top: 0;
+}
+
+
+.card-footer a {
+  color: #FFF !important;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 1330px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 991px) {
+  .my-activities .col:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+p.copyright {
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
